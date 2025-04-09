@@ -10,7 +10,6 @@ pipeline {
                 }
             }
             steps {
-                cleanWs()
                 echo 'Building'
                 sh '''
                     ls -la
